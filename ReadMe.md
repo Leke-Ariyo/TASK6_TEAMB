@@ -1,3 +1,20 @@
+<div align="center">
+
+![hng](https://res.cloudinary.com/iambeejayayo/image/upload/v1554240066/brand-logo.png)
+
+<br>
+
+</div>
+
+# WEB SCRAPING
+
+## INTRODUCTION
+This is Task 6 Submission by Team B of the HNG Internship 6.0, Machine Learning Track. We were assigned to use a web scraping tool like Selenium to get the H-index, names and other informations of Computer Science professors on Google Scholar(Page 1 - 25)
+
+## Getting Started
+
+
+
 1. Have a chromedriver in the same directory as your .py file
 2. Make sure you have google chrome on ur PC
 3. Let the chrome version and chromedriver version match
