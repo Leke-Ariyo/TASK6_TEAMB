@@ -1,0 +1,251 @@
+,Names,H Index
+0,David S. Johnson,132
+1,Jiawei Han,169
+2,Rob Knight,166
+3,William H. Press,76
+4,Stephen Boyd,112
+5,Scott Shenker,154
+6,Chuen-Tsai Sun,148
+7,Jeffrey Ullman,111
+8,Deborah Estrin,126
+9,Philip S. Yu,155
+10,Christopher D Manning,114
+11,Ion Stoica,126
+12,Ian H. Witten,81
+13,Trevor Darrell,117
+14,David Patterson,103
+15,Judea Pearl,98
+16,hector garcia-molina,137
+17,Chih-Jen Lin,65
+18,Jian Pei,85
+19,Ben Shneiderman,117
+20,Manolis Kellis,104
+21,Jason Rafe Miller,96
+22,Jon Kleinberg,103
+23,Johnson Thomas,143
+24,Alfred Aho,68
+25,Allen Newell,81
+26,Leon Chua,123
+27,Robert Tarjan,113
+28,Azmed Zweil,130
+29,Stuart Russell,76
+30,Scott Kirkpatrick,62
+31,Francisco Herrera,136
+32,Li Fei-Fei,92
+33,Dan Boneh,110
+34,Eibe Frank,50
+35,David Blei,83
+36,martin vetterli,113
+37,Wolfram Burgard,106
+38,Henning Schulzrinne,90
+39,Chris Taylor,104
+40,Ronald Graham,82
+41,Gerard Salton (1927-1995),65
+42,Andrew McCallum,98
+43,George Karypis,91
+44,William T. Freeman,108
+45,Robert M. Haralick,77
+46,David Wishart,102
+47,Ramesh Jain,95
+48,Robert Morris,73
+49,Lixia Zhang,99
+50,Jennifer Widom,100
+51,Nir Friedman,90
+52,Jian-Hung Chen,98
+53,David Karger,93
+54,Jim Hendler,90
+55,Dieter Fox,104
+56,Adrian Perrig,94
+57,Larry Davis,109
+58,Erkki Oja,71
+59,John Stankovic,116
+60,Leonidas Guibas,119
+61,Demetri Terzopoulos,80
+62,Thorsten Joachims,70
+63,Barry Boehm,82
+64,Sara Kiesler,95
+65,Prof Yan Li,98
+66,Thomas Cormen,31
+67,Yuhui Shi,48
+68,Michael Elad,84
+69,Jure Leskovec,96
+70,Liang Chen,92
+71,Mani Srivastava,100
+72,Mark Horowitz,126
+73,Antonio Torralba,91
+74,Mubarak Shah,104
+75,Rob Fergus,63
+76,Lee Sai Peck,94
+77,Ramesh Govindan,92
+78,Mihir Bellare,102
+79,Dawn Song,104
+80,Serge Belongie,82
+81,Grzegorz Rozenberg,86
+82,Shih-Fu Chang,112
+83,Shree Nayar,121
+84,Bruce Buchanan,71
+85,Huan Liu,96
+86,Ian Horrocks,93
+87,W. Bruce Croft,104
+88,Eugene Charniak,73
+89,Padhraic Smyth,77
+90,Oded Goldreich,88
+91,Kang G. Shin,105
+92,Pavel Pevzner,90
+93,Jeremy Johnson,79
+94,Gilles Brassard,59
+95,Jennifer Rexford,104
+96,Junlin Zhou,91
+97,David Wagner,92
+98,Stuart K. Card,88
+99,Katia Sycara,92
+100,Samir R. Das,56
+101,Berthold Horn,60
+102,Carlos A. Coello Coello,83
+103,Kai Li,86
+104,David Kriegman,69
+105,Alan Yuille,95
+106,Marc Levoy,71
+107,rodney brooks,67
+108,Edward A. LEE,82
+109,William Gropp,75
+110,Gary Bader,81
+111,Moni Naor,89
+112,Pedro Domingos,84
+113,Eamonn Keogh,85
+114,Mihai Pop,54
+115,Steven Feiner,76
+116,Carlo Tomasi,60
+117,Hans-Peter Seidel,104
+118,Hiroaki Kitano,78
+119,Joseph Hellerstein,90
+120,Rajeev Alur,85
+121,Chris H.Q. Ding,80
+122,Jason T. L. Wang,85
+123,Tim Cootes,75
+124,Pascal Fua,89
+125,David Harel,76
+126,Sanjoy Kumar Saha,67
+127,Andrew Tanenbaum,75
+128,Elisa Bertino,99
+129,Dana Ballard,65
+130,James W. Davis,86
+131,Vineet Bafna,67
+132,Evangelos Milios,48
+133,Simon Kasif,52
+134,Burkhard Rost,94
+135,Harry Zhang,82
+136,Thomas Dietterich,75
+137,Laurent Itti,67
+138,Ben Langmead,25
+139,Yair Weiss,70
+140,Miron Livny,86
+141,Sangeeta N. Bhatia,99
+142,Thomas L. Griffiths,81
+143,tomasz imielinski,58
+144,Dan Jurafsky,81
+145,Kevin W. Bowyer,75
+146,Russell H. Taylor,88
+147,Wen Gao,89
+148,Paul C. van Oorschot,73
+149,Joseph Halpern,88
+150,Stefan Savage,79
+151,Amit Sahai,77
+152,David Dill,74
+153,Ramin Zabih,33
+154,David Maier,64
+155,H Sebastian Seung,67
+156,Peter Belhumeur,59
+157,Jie Wu,90
+158,Rob Edwards,69
+159,Salvatore Stolfo,94
+160,Thomas Frauenheim,93
+161,James Taylor,42
+162,George Petersson,37
+163,Daniela Rus,99
+164,Eran Segal,76
+165,Jyh-Shing Roger Jang,36
+166,Chung-Nan Lee,68
+167,Wenke Lee,84
+168,A Silberschatz,81
+169,Daniel Cohen-Or,94
+170,Satinder Singh,70
+171,Gene Cooperman,25
+172,David Garlan,75
+173,Michael Mitzenmacher,76
+174,David Wetherall,82
+175,Ran Canetti,73
+176,Frank Leymann,79
+177,Stephanie Forrest,76
+178,Mahadev Satyanarayanan,79
+179,Robert C. Miller,84
+180,M A Hossain,73
+181,Lionel Ni,83
+182,Lawrence K Saul,50
+183,Mihalis Yannakakis,92
+184,Gerhard Weikum,87
+185,Ari Juels,78
+186,Manuela M. Veloso,80
+187,Radford Neal,43
+188,Kannan Ramchandran,84
+189,Raymond Mooney,80
+190,Martin Ester,59
+191,Barry Smith,89
+192,Olvi Mangasarian,85
+193,Shwetak Patel,56
+194,Roch Guerin,63
+195,Yolanda Gil,61
+196,Alexander C Berg,48
+197,Michael J. Pazzani,64
+198,Jose Meseguer,80
+199,Michael R. Lyu,86
+200,Steven H. Low,82
+201,Jörg Sander,43
+202,Thomas Hofmann,56
+203,João Paulo Domingos Silva,77
+204,Daniel Keim,74
+205,Raj Jain,62
+206,Andrew T. Campbell,81
+207,Eva Tardos,64
+208,L. Jay Guo,72
+209,David Forsyth,77
+210,Dimitris N. Metaxas,88
+211,Thomas Brox,72
+212,Enrique Herrera-Viedma,88
+213,Gill Harmandeep Singh,72
+214,Andrew Ortony,53
+215,David Blaauw,84
+216,Ronald Fedkiw,66
+217,Arnold Smeulders,60
+218,George Varghese,82
+219,Piotr Indyk,72
+220,Srini Devadas,89
+221,Gabor T. Herman,70
+222,Henry Kautz,77
+223,Diego Calvanese,68
+224,Lillian Lee,37
+225,Mohan varshney,85
+226,Allen Tannenbaum,76
+227,Franz Baader,60
+228,Rick Stevens,53
+229,Steve Seitz,70
+230,Sajal K. Das,83
+231,Bernhard Pfahringer,46
+232,Schahram Dustdar,69
+233,Thomas Bäck,58
+234,Michael D. Abramoff,60
+235,Laxmikant Kale,60
+236,Yiming Yang,54
+237,Fredo Durand,85
+238,Kenneth Salisbury,61
+239,Philip Levis,62
+240,Ivan Stojmenovic,81
+241,Xiaolan Zhang,40
+242,William Zhu,73
+243,George Furnas,35
+244,Marc Pollefeys,86
+245,Gaurav Sukhatme,88
+246,"J F Nunamaker, Jr.",79
+247,Mark Crovella,68
+248,Richard Taylor,54
+249,Yuri Boykov,39
