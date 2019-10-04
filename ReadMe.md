@@ -12,17 +12,34 @@
 This is Task 6 Submission by Team B of the HNG Internship 6.0, Machine Learning Track. We were assigned to use a web scraping tool like Selenium to get the H-index, names and other informations of Computer Science professors on Google Scholar(Page 1 - 25)
 
 ## Getting Started
+The Google Scholar Site scraped is "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Computer+Science+professors&btnG="
+
+### Requirements
+Google Chrome
+Chrome Driver which should be the same version as Your Google Chrome installed
+Compatible Integrated Development Environment (IDE) such as Visual Studio Code (VSCode)
+
+### Installation
+`https://www.google.com/chrome/` to install google chrome
+`https://sites.google.com/a/chromium.org/chromedriver/home` to install webdriver for chrome
+`pip install selenium` to install the web scraping tool, make sure you have pip installed
+`pip install pandas` to install pandas.
+
+### Configuration
+`import time
+import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys`
+
+### How to Use it
+After installing the necessary applications and packages, proceed to run the `scraper.py` file, make sure it is in the same directory as the chromedriver installed.
+In order to avoid the existence of duplicate files, please rename the the "output.csv" file located on the last line of `scraper.py`
+
+### Important Precautions to Take
+   Please wait patiently for the code to finish running, it might take a while
+The reason for delay is the `time.sleep()` function which will prevent a flagdown from google as a result of the frequent action on the site.
+   Sometimes a fluctuating network might cause a break in code, so if it is stuck at a
+point for too long, please refresh the browser.
 
 
-
-1. Have a chromedriver in the same directory as your .py file
-2. Make sure you have google chrome on ur PC
-3. Let the chrome version and chromedriver version match
-4. Run the code with any python compatible text editor
-5. The last line of the .py file specifies the  csv file name, you should rename it
-   to avoid the existence of duplicate files
-6. Please wait patiently for the code to finish running, the reason for the delay is
-   because google will flag it if delay is not put in place. If it doesn't stop by 
-   itself the code is still running so wait.
-7. Sometimes a fluctuating network might cause a break in code so if it's stuck at a
-   point for too long you can refresh the browser
+### Conclusion
