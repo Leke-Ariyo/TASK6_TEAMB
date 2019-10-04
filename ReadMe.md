@@ -11,7 +11,7 @@
 ## INTRODUCTION
 This is Task 6 Submission by Team B of the HNG Internship 6.0, Machine Learning Track. We were assigned to use a web scraping tool like Selenium to get the H-index, names and other informations of Computer Science professors on Google Scholar(Page 1 - 25)
 
-## Getting Started
+## GETTING STARTED
 The Google Scholar Site scraped is https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Computer+Science+professors&btnG=
 
 ### Requirements
@@ -21,13 +21,13 @@ The Google Scholar Site scraped is https://scholar.google.com/citations?hl=en&vi
 - Selenium
 - Pandas
 
-## Installations
+## INSTALLATIONS
 - https://www.google.com/chrome/ to install google chrome
 - https://sites.google.com/a/chromium.org/chromedriver/home to install webdriver for chrome
 - ```pip install selenium``` to install the web scraping tool, make sure you have pip installed
 - ```pip install pandas``` to install pandas.
 
-### Configuration
+### CONFIGURATION
 
 ```
 # Import the necessary libraries
@@ -106,8 +106,8 @@ DF.to_csv('output.csv')
 1 	Jiawei Han 	            169
 2 	Rob Knight 	            166
 3 	William H. Press   	    76
-4 	Stephen Boyd 	        112
-5 	Scott Shenker 	        154
+4 	Stephen Boyd 	            112
+5 	Scott Shenker 	            154
 ```
 
 
@@ -123,7 +123,7 @@ The reason for delay is the `time.sleep()` function which will prevent a flagdow
 point for too long, please refresh the browser.
 
 
-## Conclusion
+## CONCLUSION
 Following the above instructions will give an output of the names of 250 Computer Science Professors and their H-Index in csv format.
 
 ## Built with Visual Studio Code by members of TEAM B, Task 6.
