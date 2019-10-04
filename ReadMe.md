@@ -18,6 +18,8 @@ The Google Scholar Site scraped is https://scholar.google.com/citations?hl=en&vi
 - Google Chrome
 - Chrome Driver which should be the same version as Your Google Chrome installed
 - A compatible Integrated Development Environment(IDE) such as Visual Studio Code(VSCode)
+- Selenium
+- Pandas
 
 ## Installations
 - https://www.google.com/chrome/ to install google chrome
@@ -71,6 +73,7 @@ for each in LIST_OF_LINKS:
 
 ```
 #print the results of each list
+
 print(TOTAL_NAME)
 print(TOTAL_BIO)
 print(TOTAL_H_INDEX)
@@ -78,7 +81,9 @@ print(H_INDEX_2014)
 print(TOTAL_I_10_INDEX)
 print(I_10_INDEX_2014)
 print(TOTAL_CITATIONS)
+```
 
+```
 #Store these results in Pandas Dataframe
 
 DF = pd.DataFrame({'Names': TOTAL_NAME,
@@ -89,14 +94,17 @@ DF = pd.DataFrame({'Names': TOTAL_NAME,
                    'I-10 Index since 2014': I_10_INDEX_2014,
                    'Citation': TOTAL_CITATIONS,
                    })  
-                   
+```    
+
+```
 #Output the dataframe into a csv file
+
 DF.to_csv('output.csv') 
 ```
 
 ## How to Use it
 - After installing the necessary applications and packages, proceed to run the `scraper.py` file, that is, run `python3 scraper.py` in the terminal. Make sure it is in the same directory as the chromedriver installed.
-- In order to avoid the existence of duplicate files, please rename the the "output.csv" file located on the last line of `scraper.py` file.
+- In order to avoid the existence of duplicate files, please rename the "output.csv" file located on the last line of `scraper.py` file.
 
 ### Important Precautions to Take
 -  Please wait patiently for the code to finish running, it might take a while.
@@ -110,4 +118,4 @@ Following the above instructions will give an output of the names of 250 Compute
 
 
 
-## Built with Visual Studio Code by TEAM B, Task 6.
+## Built with Visual Studio Code by members of TEAM B, Task 6.
