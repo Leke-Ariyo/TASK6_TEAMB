@@ -16,10 +16,11 @@ The Google Scholar Site scraped is "https://scholar.google.com/citations?hl=en&v
 
 ### Requirements
 Google Chrome
+
 Chrome Driver which should be the same version as Your Google Chrome installed
 Compatible Integrated Development Environment (IDE) such as Visual Studio Code (VSCode)
 
-### Installation
+## Installation
 `https://www.google.com/chrome/` to install google chrome
 `https://sites.google.com/a/chromium.org/chromedriver/home` to install webdriver for chrome
 `pip install selenium` to install the web scraping tool, make sure you have pip installed
@@ -31,7 +32,7 @@ import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys`
 
-### How to Use it
+## How to Use it
 After installing the necessary applications and packages, proceed to run the `scraper.py` file, make sure it is in the same directory as the chromedriver installed.
 In order to avoid the existence of duplicate files, please rename the the "output.csv" file located on the last line of `scraper.py`
 
@@ -42,4 +43,4 @@ The reason for delay is the `time.sleep()` function which will prevent a flagdow
 point for too long, please refresh the browser.
 
 
-### Conclusion
+## Conclusion
