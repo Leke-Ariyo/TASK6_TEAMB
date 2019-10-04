@@ -59,17 +59,13 @@ TOTAL_CITATIONS = []
 # After collecting the necessary html tags of the urls, begin to scrape each of them to extract the names and H-Index
 for each in LIST_OF_LINKS:
     print("collecting data of "+str(int(LIST_OF_LINKS.index(each))+1))
-    DRIVER.get(each) #goes to each link
-    try:
-        name_path = "gsc_prf_in"
-        name = DRIVER.find_element_by_id(name_path).text
-        #gets the container of name and the text which is the name
-        TOTAL_NAME.append(name)
-        time.sleep(6)
-    except Exception as _e:
-        TOTAL_NAME.append("No Data")
-        
-# Next use "try" and "except" to account for the various possible options
+    DRIVER.get(each) # DRIVER goes to each link      
+# Next use "try" and "except" to account for the various possible cases such as
+# a case whereby the "DRIVER" finds a name 
+# a case whereby the "DRIVER" doesn't find a name and we need to prevent the code from crashing
+# a case whereby the "DRIVER" finds an H-Index
+# a case whereby the "DRIVER" doesn't find an H-Index and we need to prevent the code from crashing
+
 ```
 
 ```
@@ -85,7 +81,7 @@ print(TOTAL_CITATIONS)
 ```
 
 ```
-#Store these results in Pandas Dataframe
+#Stores these results in Pandas Dataframe
 
 DF = pd.DataFrame({'Names': TOTAL_NAME,
                    'Bio Data': TOTAL_BIO,
@@ -95,9 +91,28 @@ DF = pd.DataFrame({'Names': TOTAL_NAME,
                    'I-10 Index since 2014': I_10_INDEX_2014,
                    'Citation': TOTAL_CITATIONS,
                    })  
-```    
+```
 
-## How to Use it
+### OUTPUT
+```
+#Output the dataframe into a csv file
+
+DF.to_csv('output.csv') 
+```
+```
+#A part of the Result
+ 	Names 	                H Index
+0 	David S. Johnson 	    132
+1 	Jiawei Han 	            169
+2 	Rob Knight 	            166
+3 	William H. Press   	    76
+4 	Stephen Boyd 	        112
+5 	Scott Shenker 	        154
+```
+
+
+
+## How to Run this Project
 - After installing the necessary applications and packages, proceed to run the `scraper.py` file, that is, run `python3 scraper.py` in the terminal. Make sure it is in the same directory as the chromedriver installed.
 - In order to avoid the existence of duplicate files, please rename the "output.csv" file located on the last line of `scraper.py` file.
 
@@ -110,21 +125,5 @@ point for too long, please refresh the browser.
 
 ## Conclusion
 Following the above instructions will give an output of the names of 250 Computer Science Professors and their H-Index in csv format.
-```
-#Output the dataframe into a csv file
-
-DF.to_csv('output.csv') 
-```
-```
-#A part of the Result
- 	Names 	          H Index
-0 	David S. Johnson 	132
-1 	Jiawei Han 	        169
-2 	Rob Knight 	        166
-3 	William H. Press   	76
-4 	Stephen Boyd 	    112
-5 	Scott Shenker 	    154
-```
-
 
 ## Built with Visual Studio Code by members of TEAM B, Task 6.
